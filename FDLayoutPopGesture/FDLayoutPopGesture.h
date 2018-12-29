@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char FDLayoutPopGestureVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FDLayoutPopGesture/PublicHeader.h>
 
-
+#import "UITableView+FDKeyedHeightCache.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "UITableView+FDIndexPathHeightCache.h"
+#import "UITableView+FDTemplateLayoutCellDebug.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"

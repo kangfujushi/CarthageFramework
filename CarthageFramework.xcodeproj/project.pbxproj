@@ -34,6 +34,8 @@
 		4D95728821D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95728921D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95728A21D766A100BD615A /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95729721D76A3E00BD615A /* LMJScrollTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +72,6 @@
 		4D95721521D75E9500BD615A /* LMJScrollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView.h; sourceTree = "<group>"; };
 		4D95721621D75E9500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D95722021D7603600BD615A /* CarthageFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CarthageFramework.app; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/CarthageFramework.app"; sourceTree = "<absolute>"; };
-		4D95726421D764AE00BD615A /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
 		4D95726921D765CA00BD615A /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
 		4D95727121D7668500BD615A /* FDLayoutPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDLayoutPopGesture.h; sourceTree = "<group>"; };
 		4D95727221D7668500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +86,9 @@
 		4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
 		4D95728B21D766B300BD615A /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
+		4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView2.h; sourceTree = "<group>"; };
+		4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJScrollTextView2.m; sourceTree = "<group>"; };
+		4D95729821D76A4200BD615A /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMJScrollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 				4D9571B721D7529500BD615A /* SDCycleScrollView */,
 				4D95721421D75E9500BD615A /* LMJScrollTextView */,
 				4D95727021D7668500BD615A /* FDLayoutPopGesture */,
+				4D95729821D76A4200BD615A /* LMJScrollTextView.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				4D95721521D75E9500BD615A /* LMJScrollTextView.h */,
+				4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */,
+				4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */,
 				4D95721621D75E9500BD615A /* Info.plist */,
 			);
 			path = LMJScrollTextView;
@@ -218,6 +225,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */,
 				4D95721721D75E9500BD615A /* LMJScrollTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +297,7 @@
 			);
 			name = LMJScrollTextView;
 			productName = LMJScrollTextView;
-			productReference = 4D95726421D764AE00BD615A /* LMJScrollTextView.framework */;
+			productReference = 4D95729821D76A4200BD615A /* LMJScrollTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95726E21D7668500BD615A /* FDLayoutPopGesture */ = {
@@ -411,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D95729721D76A3E00BD615A /* LMJScrollTextView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
