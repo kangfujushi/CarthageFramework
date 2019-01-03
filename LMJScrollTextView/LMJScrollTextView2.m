@@ -154,7 +154,6 @@
 - (void)setJYHomeNewsSettings {
     _textFont = [UIFont fontWithName:@"PingFangSC-Medium" size:14];
     _textColor = [UIColor colorWithRed:33/255. green:33/255. blue:33/255. alpha:1];
-    _textDataArr = @[@"国内油价五年连续涨,你准备好了吗？",@"你一定要知道的油价泡沫"];
     _textAlignment = NSTextAlignmentLeft;
 }
 
@@ -190,8 +189,6 @@
     
     _currentScrollLabel = nil;
     _standbyScrollLabel = nil;
-    _currentScrollLabel.adjustsFontSizeToFitWidth = YES;
-    _standbyScrollLabel.adjustsFontSizeToFitWidth = YES;
     
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickAction)];
     [self addGestureRecognizer:_tapGesture];
