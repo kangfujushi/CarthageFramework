@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D9571B521D7529500BD615A"
-               BuildableName = "SDCycleScrollView.framework"
-               BlueprintName = "SDCycleScrollView"
+               BlueprintIdentifier = "4D04BC1321DF4B9A00951ADA"
+               BuildableName = "UIKitEffect.framework"
+               BlueprintName = "UIKitEffect"
                ReferencedContainer = "container:CarthageFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D9571B521D7529500BD615A"
-            BuildableName = "SDCycleScrollView.framework"
-            BlueprintName = "SDCycleScrollView"
+            BlueprintIdentifier = "4D04BC1321DF4B9A00951ADA"
+            BuildableName = "UIKitEffect.framework"
+            BlueprintName = "UIKitEffect"
             ReferencedContainer = "container:CarthageFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D9571B521D7529500BD615A"
-            BuildableName = "SDCycleScrollView.framework"
-            BlueprintName = "SDCycleScrollView"
+            BlueprintIdentifier = "4D04BC1321DF4B9A00951ADA"
+            BuildableName = "UIKitEffect.framework"
+            BlueprintName = "UIKitEffect"
             ReferencedContainer = "container:CarthageFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
