@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D07540821E6E4D2007DE2BB /* UIKitEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D07540621E6E4D2007DE2BB /* UIKitEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D07541021E6E4E3007DE2BB /* UIViewEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07540C21E6E4E3007DE2BB /* UIViewEffect.m */; };
+		4D07541121E6E4E3007DE2BB /* UIViewEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D07540D21E6E4E3007DE2BB /* UIViewEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D07541221E6E4E3007DE2BB /* UIView+Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D07540E21E6E4E3007DE2BB /* UIView+Effect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D07541321E6E4E3007DE2BB /* UIView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07540F21E6E4E3007DE2BB /* UIView+Effect.m */; };
+		4D9571CD21D752A600BD615A /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */; };
+		4D9571CE21D752A600BD615A /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571BF21D752A600BD615A /* UIView+SDExtension.m */; };
+		4D9571CF21D752A600BD615A /* SDCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571C021D752A600BD615A /* SDCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571D021D752A600BD615A /* SDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571C121D752A600BD615A /* SDCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571D121D752A600BD615A /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571C221D752A600BD615A /* SDCycleScrollView.m */; };
+		4D9571D221D752A600BD615A /* UIView+SDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571C321D752A600BD615A /* UIView+SDExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571D321D752A600BD615A /* TAAbstractDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571C521D752A600BD615A /* TAAbstractDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571D421D752A600BD615A /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571C621D752A600BD615A /* TADotView.m */; };
+		4D9571D521D752A600BD615A /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571C721D752A600BD615A /* TAPageControl.m */; };
+		4D9571D621D752A600BD615A /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571C821D752A600BD615A /* TAAnimatedDotView.m */; };
+		4D9571D721D752A600BD615A /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9571C921D752A600BD615A /* TAAbstractDotView.m */; };
+		4D9571D821D752A600BD615A /* TADotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571CA21D752A600BD615A /* TADotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571D921D752A600BD615A /* TAAnimatedDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571CB21D752A600BD615A /* TAAnimatedDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571DA21D752A600BD615A /* TAPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9571CC21D752A600BD615A /* TAPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9571E521D753FB00BD615A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9571E421D753FB00BD615A /* SDWebImage.framework */; };
+		4D95721721D75E9500BD615A /* LMJScrollTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95721521D75E9500BD615A /* LMJScrollTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95727321D7668500BD615A /* FDLayoutPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727121D7668500BD615A /* FDLayoutPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728121D766A100BD615A /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727721D766A000BD615A /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728221D766A100BD615A /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727821D766A000BD615A /* UITableView+FDTemplateLayoutCell.m */; };
+		4D95728321D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727921D766A000BD615A /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		4D95728421D766A100BD615A /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727A21D766A000BD615A /* UITableView+FDKeyedHeightCache.m */; };
+		4D95728521D766A100BD615A /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727B21D766A000BD615A /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728621D766A100BD615A /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727C21D766A000BD615A /* UITableView+FDIndexPathHeightCache.m */; };
+		4D95728721D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727D21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m */; };
+		4D95728821D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728921D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728A21D766A100BD615A /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95729721D76A3E00BD615A /* LMJScrollTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D95719321D7502900BD615A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D0753FB21E6E482007DE2BB /* CarthageFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CarthageFramework.app; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/CarthageFramework.app"; sourceTree = "<absolute>"; };
+		4D0753FC21E6E482007DE2BB /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
+		4D0753FD21E6E482007DE2BB /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
+		4D0753FE21E6E482007DE2BB /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
+		4D07540621E6E4D2007DE2BB /* UIKitEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitEffect.h; sourceTree = "<group>"; };
+		4D07540721E6E4D2007DE2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D07540C21E6E4E3007DE2BB /* UIViewEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEffect.m; sourceTree = "<group>"; };
+		4D07540D21E6E4E3007DE2BB /* UIViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEffect.h; sourceTree = "<group>"; };
+		4D07540E21E6E4E3007DE2BB /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
+		4D07540F21E6E4E3007DE2BB /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
+		4D07541421E6E523007DE2BB /* UIKitEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitEffect.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/UIKitEffect.framework"; sourceTree = "<absolute>"; };
+		4D9571B921D7529500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		4D9571BF21D752A600BD615A /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		4D9571C021D752A600BD615A /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		4D9571C121D752A600BD615A /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		4D9571C221D752A600BD615A /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		4D9571C321D752A600BD615A /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		4D9571C521D752A600BD615A /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		4D9571C621D752A600BD615A /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		4D9571C721D752A600BD615A /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		4D9571C821D752A600BD615A /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		4D9571C921D752A600BD615A /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		4D9571CA21D752A600BD615A /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		4D9571CB21D752A600BD615A /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		4D9571CC21D752A600BD615A /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		4D9571DE21D752EA00BD615A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4D9571E421D753FB00BD615A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		4D95721521D75E9500BD615A /* LMJScrollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView.h; sourceTree = "<group>"; };
+		4D95721621D75E9500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D95727121D7668500BD615A /* FDLayoutPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDLayoutPopGesture.h; sourceTree = "<group>"; };
+		4D95727221D7668500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D95727721D766A000BD615A /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		4D95727821D766A000BD615A /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		4D95727921D766A000BD615A /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		4D95727A21D766A000BD615A /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		4D95727B21D766A000BD615A /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		4D95727C21D766A000BD615A /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		4D95727D21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView2.h; sourceTree = "<group>"; };
+		4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJScrollTextView2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D07540121E6E4D2007DE2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95716421D74F1000BD615A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9571B321D7529500BD615A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9571E521D753FB00BD615A /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95721021D75E9500BD615A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95726C21D7668500BD615A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D07540521E6E4D2007DE2BB /* UIKitEffect */ = {
+			isa = PBXGroup;
+			children = (
+				4D07540621E6E4D2007DE2BB /* UIKitEffect.h */,
+				4D07540D21E6E4E3007DE2BB /* UIViewEffect.h */,
+				4D07540C21E6E4E3007DE2BB /* UIViewEffect.m */,
+				4D07540E21E6E4E3007DE2BB /* UIView+Effect.h */,
+				4D07540F21E6E4E3007DE2BB /* UIView+Effect.m */,
+				4D07540721E6E4D2007DE2BB /* Info.plist */,
+			);
+			path = UIKitEffect;
+			sourceTree = "<group>";
+		};
+		4D95715E21D74F1000BD615A = {
+			isa = PBXGroup;
+			children = (
+				4D9571DC21D752EA00BD615A /* Framework */,
+				4D9571B721D7529500BD615A /* SDCycleScrollView */,
+				4D95721421D75E9500BD615A /* LMJScrollTextView */,
+				4D95727021D7668500BD615A /* FDLayoutPopGesture */,
+				4D07540521E6E4D2007DE2BB /* UIKitEffect */,
+			);
+			sourceTree = "<group>";
+		};
+		4D9571B721D7529500BD615A /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4D9571C421D752A600BD615A /* PageControl */,
+				4D9571C121D752A600BD615A /* SDCollectionViewCell.h */,
+				4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */,
+				4D9571C021D752A600BD615A /* SDCycleScrollView.h */,
+				4D9571C221D752A600BD615A /* SDCycleScrollView.m */,
+				4D9571C321D752A600BD615A /* UIView+SDExtension.h */,
+				4D9571BF21D752A600BD615A /* UIView+SDExtension.m */,
+				4D9571B921D7529500BD615A /* Info.plist */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		4D9571C421D752A600BD615A /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4D9571C521D752A600BD615A /* TAAbstractDotView.h */,
+				4D9571C621D752A600BD615A /* TADotView.m */,
+				4D9571C721D752A600BD615A /* TAPageControl.m */,
+				4D9571C821D752A600BD615A /* TAAnimatedDotView.m */,
+				4D9571C921D752A600BD615A /* TAAbstractDotView.m */,
+				4D9571CA21D752A600BD615A /* TADotView.h */,
+				4D9571CB21D752A600BD615A /* TAAnimatedDotView.h */,
+				4D9571CC21D752A600BD615A /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		4D9571DC21D752EA00BD615A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4D9571E421D753FB00BD615A /* SDWebImage.framework */,
+				4D9571DE21D752EA00BD615A /* PrefixHeader.pch */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		4D95721421D75E9500BD615A /* LMJScrollTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4D95721521D75E9500BD615A /* LMJScrollTextView.h */,
+				4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */,
+				4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */,
+				4D95721621D75E9500BD615A /* Info.plist */,
+			);
+			path = LMJScrollTextView;
+			sourceTree = "<group>";
+		};
+		4D95727021D7668500BD615A /* FDLayoutPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				4D95727121D7668500BD615A /* FDLayoutPopGesture.h */,
+				4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */,
+				4D95727D21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m */,
+				4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */,
+				4D95727C21D766A000BD615A /* UITableView+FDIndexPathHeightCache.m */,
+				4D95727B21D766A000BD615A /* UITableView+FDKeyedHeightCache.h */,
+				4D95727A21D766A000BD615A /* UITableView+FDKeyedHeightCache.m */,
+				4D95727721D766A000BD615A /* UITableView+FDTemplateLayoutCell.h */,
+				4D95727821D766A000BD615A /* UITableView+FDTemplateLayoutCell.m */,
+				4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */,
+				4D95727921D766A000BD615A /* UITableView+FDTemplateLayoutCellDebug.m */,
+				4D95727221D7668500BD615A /* Info.plist */,
+			);
+			path = FDLayoutPopGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D0753FF21E6E4D2007DE2BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D07541121E6E4E3007DE2BB /* UIViewEffect.h in Headers */,
+				4D07540821E6E4D2007DE2BB /* UIKitEffect.h in Headers */,
+				4D07541221E6E4E3007DE2BB /* UIView+Effect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9571B121D7529500BD615A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9571D321D752A600BD615A /* TAAbstractDotView.h in Headers */,
+				4D9571D221D752A600BD615A /* UIView+SDExtension.h in Headers */,
+				4D9571D021D752A600BD615A /* SDCollectionViewCell.h in Headers */,
+				4D9571CF21D752A600BD615A /* SDCycleScrollView.h in Headers */,
+				4D9571DA21D752A600BD615A /* TAPageControl.h in Headers */,
+				4D9571D821D752A600BD615A /* TADotView.h in Headers */,
+				4D9571D921D752A600BD615A /* TAAnimatedDotView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95720E21D75E9500BD615A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */,
+				4D95721721D75E9500BD615A /* LMJScrollTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95726A21D7668500BD615A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D95728921D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+				4D95728821D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+				4D95728A21D766A100BD615A /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				4D95728121D766A100BD615A /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				4D95728521D766A100BD615A /* UITableView+FDKeyedHeightCache.h in Headers */,
+				4D95727321D7668500BD615A /* FDLayoutPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D07540321E6E4D2007DE2BB /* UIKitEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D07540921E6E4D2007DE2BB /* Build configuration list for PBXNativeTarget "UIKitEffect" */;
+			buildPhases = (
+				4D0753FF21E6E4D2007DE2BB /* Headers */,
+				4D07540021E6E4D2007DE2BB /* Sources */,
+				4D07540121E6E4D2007DE2BB /* Frameworks */,
+				4D07540221E6E4D2007DE2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitEffect;
+			productName = UIKitEffect;
+			productReference = 4D07541421E6E523007DE2BB /* UIKitEffect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D95716621D74F1000BD615A /* CarthageFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D95717D21D74F1100BD615A /* Build configuration list for PBXNativeTarget "CarthageFramework" */;
+			buildPhases = (
+				4D95716321D74F1000BD615A /* Sources */,
+				4D95716421D74F1000BD615A /* Frameworks */,
+				4D95716521D74F1000BD615A /* Resources */,
+				4D95719321D7502900BD615A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarthageFramework;
+			productName = CarthageFramework;
+			productReference = 4D0753FB21E6E482007DE2BB /* CarthageFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D9571B521D7529500BD615A /* SDCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9571BB21D7529500BD615A /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */;
+			buildPhases = (
+				4D9571B121D7529500BD615A /* Headers */,
+				4D9571B221D7529500BD615A /* Sources */,
+				4D9571B321D7529500BD615A /* Frameworks */,
+				4D9571B421D7529500BD615A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDCycleScrollView;
+			productName = SDCycleScrollView;
+			productReference = 4D0753FC21E6E482007DE2BB /* SDCycleScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D95721221D75E9500BD615A /* LMJScrollTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D95721821D75E9500BD615A /* Build configuration list for PBXNativeTarget "LMJScrollTextView" */;
+			buildPhases = (
+				4D95720E21D75E9500BD615A /* Headers */,
+				4D95720F21D75E9500BD615A /* Sources */,
+				4D95721021D75E9500BD615A /* Frameworks */,
+				4D95721121D75E9500BD615A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMJScrollTextView;
+			productName = LMJScrollTextView;
+			productReference = 4D0753FD21E6E482007DE2BB /* LMJScrollTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D95726E21D7668500BD615A /* FDLayoutPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D95727421D7668500BD615A /* Build configuration list for PBXNativeTarget "FDLayoutPopGesture" */;
+			buildPhases = (
+				4D95726A21D7668500BD615A /* Headers */,
+				4D95726B21D7668500BD615A /* Sources */,
+				4D95726C21D7668500BD615A /* Frameworks */,
+				4D95726D21D7668500BD615A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDLayoutPopGesture;
+			productName = FDLayoutPopGesture;
+			productReference = 4D0753FE21E6E482007DE2BB /* FDLayoutPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D95715F21D74F1000BD615A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "赵宁";
+				TargetAttributes = {
+					4D07540321E6E4D2007DE2BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D95716621D74F1000BD615A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D9571B521D7529500BD615A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D95721221D75E9500BD615A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D95726E21D7668500BD615A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D95716221D74F1000BD615A /* Build configuration list for PBXProject "CarthageFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D95715E21D74F1000BD615A;
+			productRefGroup = 4D95715E21D74F1000BD615A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D95716621D74F1000BD615A /* CarthageFramework */,
+				4D9571B521D7529500BD615A /* SDCycleScrollView */,
+				4D95721221D75E9500BD615A /* LMJScrollTextView */,
+				4D95726E21D7668500BD615A /* FDLayoutPopGesture */,
+				4D07540321E6E4D2007DE2BB /* UIKitEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D07540221E6E4D2007DE2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95716521D74F1000BD615A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9571B421D7529500BD615A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95721121D75E9500BD615A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95726D21D7668500BD615A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D07540021E6E4D2007DE2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D07541021E6E4E3007DE2BB /* UIViewEffect.m in Sources */,
+				4D07541321E6E4E3007DE2BB /* UIView+Effect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95716321D74F1000BD615A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9571B221D7529500BD615A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9571CD21D752A600BD615A /* SDCollectionViewCell.m in Sources */,
+				4D9571D421D752A600BD615A /* TADotView.m in Sources */,
+				4D9571D621D752A600BD615A /* TAAnimatedDotView.m in Sources */,
+				4D9571D721D752A600BD615A /* TAAbstractDotView.m in Sources */,
+				4D9571D521D752A600BD615A /* TAPageControl.m in Sources */,
+				4D9571D121D752A600BD615A /* SDCycleScrollView.m in Sources */,
+				4D9571CE21D752A600BD615A /* UIView+SDExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95720F21D75E9500BD615A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D95729721D76A3E00BD615A /* LMJScrollTextView2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95726B21D7668500BD615A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D95728721D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				4D95728421D766A100BD615A /* UITableView+FDKeyedHeightCache.m in Sources */,
+				4D95728221D766A100BD615A /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				4D95728321D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				4D95728621D766A100BD615A /* UITableView+FDIndexPathHeightCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D07540A21E6E4D2007DE2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UIKitEffect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.UIKitEffect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D07540B21E6E4D2007DE2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UIKitEffect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.UIKitEffect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D95717B21D74F1100BD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D95717C21D74F1100BD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D95717E21D74F1100BD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Framework/PrefixHeader.pch";
+				INFOPLIST_FILE = CarthageFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.CarthageFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D95717F21D74F1100BD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Framework/PrefixHeader.pch";
+				INFOPLIST_FILE = CarthageFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.CarthageFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D9571BC21D7529500BD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Framework/PrefixHeader.pch";
+				INFOPLIST_FILE = SDCycleScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.SDCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D9571BD21D7529500BD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Framework/PrefixHeader.pch";
+				INFOPLIST_FILE = SDCycleScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.SDCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D95721921D75E9500BD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = LMJScrollTextView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.LMJScrollTextView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D95721A21D75E9500BD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = LMJScrollTextView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.LMJScrollTextView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D95727521D7668500BD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FDLayoutPopGesture/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.FDLayoutPopGesture;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D95727621D7668500BD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FDLayoutPopGesture/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.FDLayoutPopGesture;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D07540921E6E4D2007DE2BB /* Build configuration list for PBXNativeTarget "UIKitEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D07540A21E6E4D2007DE2BB /* Debug */,
+				4D07540B21E6E4D2007DE2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D95716221D74F1000BD615A /* Build configuration list for PBXProject "CarthageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D95717B21D74F1100BD615A /* Debug */,
+				4D95717C21D74F1100BD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D95717D21D74F1100BD615A /* Build configuration list for PBXNativeTarget "CarthageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D95717E21D74F1100BD615A /* Debug */,
+				4D95717F21D74F1100BD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9571BB21D7529500BD615A /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9571BC21D7529500BD615A /* Debug */,
+				4D9571BD21D7529500BD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D95721821D75E9500BD615A /* Build configuration list for PBXNativeTarget "LMJScrollTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D95721921D75E9500BD615A /* Debug */,
+				4D95721A21D75E9500BD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D95727421D7668500BD615A /* Build configuration list for PBXNativeTarget "FDLayoutPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D95727521D7668500BD615A /* Debug */,
+				4D95727621D7668500BD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D95715F21D74F1000BD615A /* Project object */;
+}
