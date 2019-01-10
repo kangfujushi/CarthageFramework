@@ -12,7 +12,7 @@
 static NSString *Key                  = @"key";
 static NSString *fillKey              = @"fill";
 static NSString *customKey            = @"custom";
-static NSString *effectTypeKey            = @"effectType";
+static NSString *effectTypeKey        = @"effectType";
 static NSString *borderWidthKey       = @"borderWidth";
 static NSString *borderColorKey       = @"borderColor";
 static NSString *cornerRadiusKey      = @"cornerRadius";
