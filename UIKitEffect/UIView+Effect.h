@@ -12,10 +12,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (Effect)
 
-@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
+@property (nonatomic, assign) IBInspectable NSUInteger ZNEffectType;
+@property (nonatomic, assign) IBInspectable float cornerRadius;
+
+//自定义圆角
+@property (nonatomic, assign) IBInspectable BOOL topLeftRadius;
+@property (nonatomic, assign) IBInspectable BOOL topRightRadius;
+@property (nonatomic, assign) IBInspectable BOOL bottomLeftRadius;
+@property (nonatomic, assign) IBInspectable BOOL bottomRightRadius;
+
+@property (nonatomic, assign) IBInspectable float borderWidth;
 @property (nonatomic, strong) IBInspectable UIColor *borderColor;
-@property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
 @property (nonatomic, assign) IBInspectable BOOL fill;
+
+//阴影
+@property (nonatomic, strong) IBInspectable UIColor *shadowColor;
+@property (nonatomic, assign) IBInspectable float shadowRadius;
+@property (nonatomic, assign) IBInspectable float shadowOpacity;
 
 @end
 
