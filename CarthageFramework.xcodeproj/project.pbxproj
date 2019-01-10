@@ -57,17 +57,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D0753FB21E6E482007DE2BB /* CarthageFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CarthageFramework.app; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/CarthageFramework.app"; sourceTree = "<absolute>"; };
-		4D0753FC21E6E482007DE2BB /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
-		4D0753FD21E6E482007DE2BB /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
-		4D0753FE21E6E482007DE2BB /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
 		4D07540621E6E4D2007DE2BB /* UIKitEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitEffect.h; sourceTree = "<group>"; };
 		4D07540721E6E4D2007DE2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D07540C21E6E4E3007DE2BB /* UIViewEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEffect.m; sourceTree = "<group>"; };
 		4D07540D21E6E4E3007DE2BB /* UIViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEffect.h; sourceTree = "<group>"; };
 		4D07540E21E6E4E3007DE2BB /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
 		4D07540F21E6E4E3007DE2BB /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
-		4D07541421E6E523007DE2BB /* UIKitEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitEffect.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/UIKitEffect.framework"; sourceTree = "<absolute>"; };
+		4D46AEFA21E781F600F2228D /* CarthageFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CarthageFramework.app; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/CarthageFramework.app"; sourceTree = "<absolute>"; };
+		4D46AEFF21E7846600F2228D /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
+		4D46AF0021E7846800F2228D /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
+		4D46AF0121E7846B00F2228D /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
+		4D46AF0221E7846E00F2228D /* UIKitEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitEffect.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/UIKitEffect.framework"; sourceTree = "<absolute>"; };
 		4D9571B921D7529500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
 		4D9571BF21D752A600BD615A /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
@@ -303,7 +303,7 @@
 			);
 			name = UIKitEffect;
 			productName = UIKitEffect;
-			productReference = 4D07541421E6E523007DE2BB /* UIKitEffect.framework */;
+			productReference = 4D46AF0221E7846E00F2228D /* UIKitEffect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95716621D74F1000BD615A /* CarthageFramework */ = {
@@ -321,7 +321,7 @@
 			);
 			name = CarthageFramework;
 			productName = CarthageFramework;
-			productReference = 4D0753FB21E6E482007DE2BB /* CarthageFramework.app */;
+			productReference = 4D46AEFA21E781F600F2228D /* CarthageFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4D9571B521D7529500BD615A /* SDCycleScrollView */ = {
@@ -339,7 +339,7 @@
 			);
 			name = SDCycleScrollView;
 			productName = SDCycleScrollView;
-			productReference = 4D0753FC21E6E482007DE2BB /* SDCycleScrollView.framework */;
+			productReference = 4D46AEFF21E7846600F2228D /* SDCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95721221D75E9500BD615A /* LMJScrollTextView */ = {
@@ -357,7 +357,7 @@
 			);
 			name = LMJScrollTextView;
 			productName = LMJScrollTextView;
-			productReference = 4D0753FD21E6E482007DE2BB /* LMJScrollTextView.framework */;
+			productReference = 4D46AF0021E7846800F2228D /* LMJScrollTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95726E21D7668500BD615A /* FDLayoutPopGesture */ = {
@@ -375,7 +375,7 @@
 			);
 			name = FDLayoutPopGesture;
 			productName = FDLayoutPopGesture;
-			productReference = 4D0753FE21E6E482007DE2BB /* FDLayoutPopGesture.framework */;
+			productReference = 4D46AF0121E7846B00F2228D /* FDLayoutPopGesture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -528,6 +528,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = UIKitEffect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,6 +541,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -555,6 +557,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = UIKitEffect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -567,6 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -740,6 +744,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
 				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Framework/PrefixHeader.pch";
 				INFOPLIST_FILE = SDCycleScrollView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -754,6 +759,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -773,6 +779,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
 				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Framework/PrefixHeader.pch";
 				INFOPLIST_FILE = SDCycleScrollView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -787,6 +794,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -802,6 +810,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = LMJScrollTextView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -816,6 +825,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -831,6 +841,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = LMJScrollTextView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -845,6 +856,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -860,6 +872,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = FDLayoutPopGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -873,6 +886,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -888,6 +902,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = FDLayoutPopGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -901,6 +916,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
