@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D07540321E6E4D2007DE2BB"
-               BuildableName = "UIKitEffect.framework"
-               BlueprintName = "UIKitEffect"
+               BlueprintIdentifier = "4D5116D621EB7A910018ED95"
+               BuildableName = "WGEffectView.framework"
+               BlueprintName = "WGEffectView"
                ReferencedContainer = "container:CarthageFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D07540321E6E4D2007DE2BB"
-            BuildableName = "UIKitEffect.framework"
-            BlueprintName = "UIKitEffect"
+            BlueprintIdentifier = "4D5116D621EB7A910018ED95"
+            BuildableName = "WGEffectView.framework"
+            BlueprintName = "WGEffectView"
             ReferencedContainer = "container:CarthageFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D07540321E6E4D2007DE2BB"
-            BuildableName = "UIKitEffect.framework"
-            BlueprintName = "UIKitEffect"
+            BlueprintIdentifier = "4D5116D621EB7A910018ED95"
+            BuildableName = "WGEffectView.framework"
+            BlueprintName = "WGEffectView"
             ReferencedContainer = "container:CarthageFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
