@@ -1,2 +1,4 @@
 cd ~/desktop/CarthageFramework
 carthage build --no-skip-current
+cd ./Carthage/Build/iOS/
+find ./ -not -name "*.framework" -exec rm -rf {} \;
