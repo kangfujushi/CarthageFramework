@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		4D5116CE21EB7A7E0018ED95 /* WGMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116CC21EB7A7E0018ED95 /* WGMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D5116DB21EB7A910018ED95 /* WGEffectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116D921EB7A910018ED95 /* WGEffectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D5116E521EB7AC10018ED95 /* JZLocationConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116DF21EB7AC10018ED95 /* JZLocationConverter.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4D5116E621EB7AC10018ED95 /* WWAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116E021EB7AC10018ED95 /* WWAnnotationView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4D5116E721EB7AC10018ED95 /* KCAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116E121EB7AC10018ED95 /* KCAnnotation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D5116E521EB7AC10018ED95 /* JZLocationConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116DF21EB7AC10018ED95 /* JZLocationConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5116E621EB7AC10018ED95 /* WWAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116E021EB7AC10018ED95 /* WWAnnotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5116E721EB7AC10018ED95 /* KCAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5116E121EB7AC10018ED95 /* KCAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D5116E821EB7AC10018ED95 /* WWAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5116E221EB7AC10018ED95 /* WWAnnotationView.m */; };
 		4D5116E921EB7AC10018ED95 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5116E321EB7AC10018ED95 /* JZLocationConverter.m */; };
 		4D5116EA21EB7AC10018ED95 /* KCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5116E421EB7AC10018ED95 /* KCAnnotation.m */; };
@@ -47,11 +47,14 @@
 		4D95728821D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95728921D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95728A21D766A100BD615A /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95729721D76A3E00BD615A /* LMJScrollTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D50FE3921EB80B900596B90 /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50FE3A21EB80B900596B90 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50FE3B21EB80B900596B90 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5116CC21EB7A7E0018ED95 /* WGMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGMapView.h; sourceTree = "<group>"; };
 		4D5116CD21EB7A7E0018ED95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5116D921EB7A910018ED95 /* WGEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGEffectView.h; sourceTree = "<group>"; };
@@ -67,9 +70,6 @@
 		4D5116EF21EB7B5A0018ED95 /* UIViewEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEffect.m; sourceTree = "<group>"; };
 		4D5116F021EB7B5A0018ED95 /* UIViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEffect.h; sourceTree = "<group>"; };
 		4D5116F621EB7B9A0018ED95 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
-		4D51170D21EB7FE30018ED95 /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
-		4D51171021EB7FE30018ED95 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGMapView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGMapView.framework"; sourceTree = "<absolute>"; };
-		4D51171121EB7FE30018ED95 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGEffectView.framework"; sourceTree = "<absolute>"; };
 		4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDLayoutPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D51171321EB80110018ED95 /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMJScrollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9571B921D7529500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -187,6 +187,9 @@
 				4D5116D821EB7A910018ED95 /* WGEffectView */,
 				4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */,
 				4D51171321EB80110018ED95 /* LMJScrollTextView.framework */,
+				4D50FE3921EB80B900596B90 /* SDCycleScrollView.framework */,
+				4D50FE3A21EB80B900596B90 /* WGMapView.framework */,
+				4D50FE3B21EB80B900596B90 /* WGEffectView.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -338,7 +341,7 @@
 			);
 			name = WGMapView;
 			productName = WGMapView;
-			productReference = 4D51171021EB7FE30018ED95 /* WGMapView.framework */;
+			productReference = 4D50FE3A21EB80B900596B90 /* WGMapView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D5116D621EB7A910018ED95 /* WGEffectView */ = {
@@ -356,7 +359,7 @@
 			);
 			name = WGEffectView;
 			productName = WGEffectView;
-			productReference = 4D51171121EB7FE30018ED95 /* WGEffectView.framework */;
+			productReference = 4D50FE3B21EB80B900596B90 /* WGEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D9571B521D7529500BD615A /* SDCycleScrollView */ = {
@@ -374,7 +377,7 @@
 			);
 			name = SDCycleScrollView;
 			productName = SDCycleScrollView;
-			productReference = 4D51170D21EB7FE30018ED95 /* SDCycleScrollView.framework */;
+			productReference = 4D50FE3921EB80B900596B90 /* SDCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95721221D75E9500BD615A /* LMJScrollTextView */ = {
