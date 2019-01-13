@@ -37,22 +37,21 @@
 		4D9571E521D753FB00BD615A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9571E421D753FB00BD615A /* SDWebImage.framework */; };
 		4D95721721D75E9500BD615A /* LMJScrollTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95721521D75E9500BD615A /* LMJScrollTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95727321D7668500BD615A /* FDLayoutPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727121D7668500BD615A /* FDLayoutPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D95728121D766A100BD615A /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727721D766A000BD615A /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D95728121D766A100BD615A /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727721D766A000BD615A /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95728221D766A100BD615A /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727821D766A000BD615A /* UITableView+FDTemplateLayoutCell.m */; };
 		4D95728321D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727921D766A000BD615A /* UITableView+FDTemplateLayoutCellDebug.m */; };
 		4D95728421D766A100BD615A /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727A21D766A000BD615A /* UITableView+FDKeyedHeightCache.m */; };
-		4D95728521D766A100BD615A /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727B21D766A000BD615A /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D95728521D766A100BD615A /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727B21D766A000BD615A /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95728621D766A100BD615A /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727C21D766A000BD615A /* UITableView+FDIndexPathHeightCache.m */; };
 		4D95728721D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95727D21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.m */; };
-		4D95728821D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4D95728921D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4D95728A21D766A100BD615A /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D95728821D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727E21D766A100BD615A /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728921D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95727F21D766A100BD615A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D95728A21D766A100BD615A /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95728021D766A100BD615A /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95729621D76A3E00BD615A /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4D95729721D76A3E00BD615A /* LMJScrollTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D5116B121EB7A010018ED95 /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
 		4D5116CC21EB7A7E0018ED95 /* WGMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGMapView.h; sourceTree = "<group>"; };
 		4D5116CD21EB7A7E0018ED95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5116D921EB7A910018ED95 /* WGEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGEffectView.h; sourceTree = "<group>"; };
@@ -68,10 +67,11 @@
 		4D5116EF21EB7B5A0018ED95 /* UIViewEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEffect.m; sourceTree = "<group>"; };
 		4D5116F021EB7B5A0018ED95 /* UIViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEffect.h; sourceTree = "<group>"; };
 		4D5116F621EB7B9A0018ED95 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
-		4D5116F821EB7B9A0018ED95 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGMapView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGMapView.framework"; sourceTree = "<absolute>"; };
-		4D5116FE21EB7C560018ED95 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGEffectView.framework"; sourceTree = "<absolute>"; };
-		4D51170321EB7CE80018ED95 /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
-		4D51170421EB7CF80018ED95 /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
+		4D51170D21EB7FE30018ED95 /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
+		4D51171021EB7FE30018ED95 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGMapView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGMapView.framework"; sourceTree = "<absolute>"; };
+		4D51171121EB7FE30018ED95 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGEffectView.framework"; sourceTree = "<absolute>"; };
+		4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDLayoutPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D51171321EB80110018ED95 /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMJScrollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9571B921D7529500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
 		4D9571BF21D752A600BD615A /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
@@ -185,6 +185,8 @@
 				4D95727021D7668500BD615A /* FDLayoutPopGesture */,
 				4D5116CB21EB7A7E0018ED95 /* WGMapView */,
 				4D5116D821EB7A910018ED95 /* WGEffectView */,
+				4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */,
+				4D51171321EB80110018ED95 /* LMJScrollTextView.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -336,7 +338,7 @@
 			);
 			name = WGMapView;
 			productName = WGMapView;
-			productReference = 4D5116F821EB7B9A0018ED95 /* WGMapView.framework */;
+			productReference = 4D51171021EB7FE30018ED95 /* WGMapView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D5116D621EB7A910018ED95 /* WGEffectView */ = {
@@ -354,7 +356,7 @@
 			);
 			name = WGEffectView;
 			productName = WGEffectView;
-			productReference = 4D5116FE21EB7C560018ED95 /* WGEffectView.framework */;
+			productReference = 4D51171121EB7FE30018ED95 /* WGEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D9571B521D7529500BD615A /* SDCycleScrollView */ = {
@@ -372,7 +374,7 @@
 			);
 			name = SDCycleScrollView;
 			productName = SDCycleScrollView;
-			productReference = 4D5116B121EB7A010018ED95 /* SDCycleScrollView.framework */;
+			productReference = 4D51170D21EB7FE30018ED95 /* SDCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95721221D75E9500BD615A /* LMJScrollTextView */ = {
@@ -390,7 +392,7 @@
 			);
 			name = LMJScrollTextView;
 			productName = LMJScrollTextView;
-			productReference = 4D51170421EB7CF80018ED95 /* LMJScrollTextView.framework */;
+			productReference = 4D51171321EB80110018ED95 /* LMJScrollTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95726E21D7668500BD615A /* FDLayoutPopGesture */ = {
@@ -408,7 +410,7 @@
 			);
 			name = FDLayoutPopGesture;
 			productName = FDLayoutPopGesture;
-			productReference = 4D51170321EB7CE80018ED95 /* FDLayoutPopGesture.framework */;
+			productReference = 4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
