@@ -98,7 +98,7 @@ static NSString *shadowOpacityKey     = @"shadowOpacity";
 - (void)setCornerRadius:(float)cornerRadius {
     if (self.ZNEffectType <= 0) {
         self.layer.cornerRadius = cornerRadius;
-        self.layer.masksToBounds = (cornerRadius>0 && self.layer.shadowRadius<=0);
+        self.layer.masksToBounds = (cornerRadius>0);
     } else {
         objc_setAssociatedObject(self, &cornerRadiusKey, @(cornerRadius),OBJC_ASSOCIATION_ASSIGN);
     }
@@ -188,7 +188,6 @@ static NSString *shadowOpacityKey     = @"shadowOpacity";
  */
 - (void)setShadowRadius:(float)shadowRadius {
     self.layer.shadowRadius = shadowRadius;
-    self.layer.masksToBounds = NO;
 }
 - (float)shadowRadius {
     return self.layer.shadowRadius;

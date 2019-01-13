@@ -63,11 +63,11 @@
 		4D07540D21E6E4E3007DE2BB /* UIViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEffect.h; sourceTree = "<group>"; };
 		4D07540E21E6E4E3007DE2BB /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
 		4D07540F21E6E4E3007DE2BB /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
-		4D46AEFA21E781F600F2228D /* CarthageFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CarthageFramework.app; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/CarthageFramework.app"; sourceTree = "<absolute>"; };
-		4D46AEFF21E7846600F2228D /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
-		4D46AF0021E7846800F2228D /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
-		4D46AF0121E7846B00F2228D /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
-		4D46AF0221E7846E00F2228D /* UIKitEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitEffect.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/UIKitEffect.framework"; sourceTree = "<absolute>"; };
+		4D944C5721EB48B000D9A41B /* CarthageFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CarthageFramework.app; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/CarthageFramework.app"; sourceTree = "<absolute>"; };
+		4D944C5821EB48B000D9A41B /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
+		4D944C5921EB48B000D9A41B /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
+		4D944C5A21EB48B000D9A41B /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
+		4D944C5B21EB48B000D9A41B /* UIKitEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitEffect.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/UIKitEffect.framework"; sourceTree = "<absolute>"; };
 		4D9571B921D7529500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
 		4D9571BF21D752A600BD615A /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
@@ -303,7 +303,7 @@
 			);
 			name = UIKitEffect;
 			productName = UIKitEffect;
-			productReference = 4D46AF0221E7846E00F2228D /* UIKitEffect.framework */;
+			productReference = 4D944C5B21EB48B000D9A41B /* UIKitEffect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95716621D74F1000BD615A /* CarthageFramework */ = {
@@ -321,7 +321,7 @@
 			);
 			name = CarthageFramework;
 			productName = CarthageFramework;
-			productReference = 4D46AEFA21E781F600F2228D /* CarthageFramework.app */;
+			productReference = 4D944C5721EB48B000D9A41B /* CarthageFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4D9571B521D7529500BD615A /* SDCycleScrollView */ = {
@@ -339,7 +339,7 @@
 			);
 			name = SDCycleScrollView;
 			productName = SDCycleScrollView;
-			productReference = 4D46AEFF21E7846600F2228D /* SDCycleScrollView.framework */;
+			productReference = 4D944C5821EB48B000D9A41B /* SDCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95721221D75E9500BD615A /* LMJScrollTextView */ = {
@@ -357,7 +357,7 @@
 			);
 			name = LMJScrollTextView;
 			productName = LMJScrollTextView;
-			productReference = 4D46AF0021E7846800F2228D /* LMJScrollTextView.framework */;
+			productReference = 4D944C5921EB48B000D9A41B /* LMJScrollTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D95726E21D7668500BD615A /* FDLayoutPopGesture */ = {
@@ -375,7 +375,7 @@
 			);
 			name = FDLayoutPopGesture;
 			productName = FDLayoutPopGesture;
-			productReference = 4D46AF0121E7846B00F2228D /* FDLayoutPopGesture.framework */;
+			productReference = 4D944C5A21EB48B000D9A41B /* FDLayoutPopGesture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
