@@ -52,9 +52,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D50FE3921EB80B900596B90 /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D50FE3A21EB80B900596B90 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D50FE3B21EB80B900596B90 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50FE3921EB80B900596B90 /* SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/SDCycleScrollView.framework"; sourceTree = "<absolute>"; };
+		4D50FE3A21EB80B900596B90 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGMapView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGMapView.framework"; sourceTree = "<absolute>"; };
+		4D50FE3B21EB80B900596B90 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGEffectView.framework"; sourceTree = "<absolute>"; };
 		4D5116CC21EB7A7E0018ED95 /* WGMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGMapView.h; sourceTree = "<group>"; };
 		4D5116CD21EB7A7E0018ED95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5116D921EB7A910018ED95 /* WGEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGEffectView.h; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		4D5116EF21EB7B5A0018ED95 /* UIViewEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEffect.m; sourceTree = "<group>"; };
 		4D5116F021EB7B5A0018ED95 /* UIViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEffect.h; sourceTree = "<group>"; };
 		4D5116F621EB7B9A0018ED95 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
-		4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDLayoutPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D51171321EB80110018ED95 /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMJScrollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/FDLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
+		4D51171321EB80110018ED95 /* LMJScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMJScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/LMJScrollTextView.framework"; sourceTree = "<absolute>"; };
 		4D9571B921D7529500BD615A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9571BE21D752A600BD615A /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
 		4D9571BF21D752A600BD615A /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
@@ -185,11 +185,6 @@
 				4D95727021D7668500BD615A /* FDLayoutPopGesture */,
 				4D5116CB21EB7A7E0018ED95 /* WGMapView */,
 				4D5116D821EB7A910018ED95 /* WGEffectView */,
-				4D51171221EB7FFC0018ED95 /* FDLayoutPopGesture.framework */,
-				4D51171321EB80110018ED95 /* LMJScrollTextView.framework */,
-				4D50FE3921EB80B900596B90 /* SDCycleScrollView.framework */,
-				4D50FE3A21EB80B900596B90 /* WGMapView.framework */,
-				4D50FE3B21EB80B900596B90 /* WGEffectView.framework */,
 			);
 			sourceTree = "<group>";
 		};

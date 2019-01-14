@@ -1,4 +1,5 @@
 cd ~/desktop/CarthageFramework
 carthage build --no-skip-current
 cd ./Carthage/Build/iOS/
-find ./ -not -name "*.framework" -exec rm -rf {} \;
+find ./ -type f -name "*.bcsymbolmap" -exec rm -rf {} \;
+find ./ -name "*.dSYM" -exec rm -rf {} \;
