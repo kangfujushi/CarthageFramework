@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D95726E21D7668500BD615A"
-               BuildableName = "FDLayoutPopGesture.framework"
-               BlueprintName = "FDLayoutPopGesture"
+               BlueprintIdentifier = "4D43300521F9B892001D096F"
+               BuildableName = "WGLayoutPopGesture.framework"
+               BlueprintName = "WGLayoutPopGesture"
                ReferencedContainer = "container:CarthageFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D95726E21D7668500BD615A"
-            BuildableName = "FDLayoutPopGesture.framework"
-            BlueprintName = "FDLayoutPopGesture"
+            BlueprintIdentifier = "4D43300521F9B892001D096F"
+            BuildableName = "WGLayoutPopGesture.framework"
+            BlueprintName = "WGLayoutPopGesture"
             ReferencedContainer = "container:CarthageFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D95726E21D7668500BD615A"
-            BuildableName = "FDLayoutPopGesture.framework"
-            BlueprintName = "FDLayoutPopGesture"
+            BlueprintIdentifier = "4D43300521F9B892001D096F"
+            BuildableName = "WGLayoutPopGesture.framework"
+            BlueprintName = "WGLayoutPopGesture"
             ReferencedContainer = "container:CarthageFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
