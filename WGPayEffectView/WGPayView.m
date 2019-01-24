@@ -7,6 +7,7 @@
 //
 
 #import "WGPayView.h"
+#import <Masonry/Masonry.h>
 
 @interface WGPayView ()
 
@@ -16,7 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *wechatPay;
 @property (weak, nonatomic) IBOutlet UIView *payView;
 
-@property (nonatomic ,strong) JYSelectBlock block;
+@property (nonatomic,copy) void (^block)(NSInteger selectIndex);
 
 @end
 
@@ -27,9 +28,9 @@
     
     view.block = block;
     view.title.text = title;
-    view.price.text = [NSString format:@"￥%.2f",price];
+    view.price.text = [NSString stringWithFormat:@"￥%.2f",price];
     view.payView.alpha = 0;
-    UIView *superView = [CTB getWindow] ;
+    UIView *superView = [[[UIApplication sharedApplication] windows] lastObject];
     [superView addSubview:view];
     [view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(superView);
