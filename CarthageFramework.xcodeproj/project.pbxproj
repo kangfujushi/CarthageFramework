@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1A6E8A21FAA86100BC4D46 /* WSDatePickerView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4D43302721F9BBE4001D096F /* WSDatePickerView.xib */; };
-		4D1A6EAD21FAAFA100BC4D46 /* WGPayEffectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1A6EAC21FAAFA100BC4D46 /* WGPayEffectView.h */; };
+		4D1A6EAD21FAAFA100BC4D46 /* WGPayEffectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1A6EAC21FAAFA100BC4D46 /* WGPayEffectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D1A6EB121FAAFAD00BC4D46 /* WGPayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A6EAE21FAAFAD00BC4D46 /* WGPayView.xib */; };
 		4D1A6EB221FAAFAD00BC4D46 /* WGPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A6EAF21FAAFAD00BC4D46 /* WGPayView.m */; };
-		4D1A6EB321FAAFAD00BC4D46 /* WGPayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1A6EB021FAAFAD00BC4D46 /* WGPayView.h */; };
+		4D1A6EB321FAAFAD00BC4D46 /* WGPayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1A6EB021FAAFAD00BC4D46 /* WGPayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D1A6EB421FAAFE300BC4D46 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5116F621EB7B9A0018ED95 /* Masonry.framework */; };
+		4D1A6EB821FAB1EF00BC4D46 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D43302721F9BBE4001D096F /* WSDatePickerView.xib */; };
 		4D432FE921F9B839001D096F /* WGCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D432FE721F9B839001D096F /* WGCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D432FF621F9B850001D096F /* WGScrollTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D432FF421F9B850001D096F /* WGScrollTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D43300A21F9B892001D096F /* WGLayoutPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D43300821F9B892001D096F /* WGLayoutPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,7 +77,7 @@
 		4D1A6EAE21FAAFAD00BC4D46 /* WGPayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WGPayView.xib; sourceTree = "<group>"; };
 		4D1A6EAF21FAAFAD00BC4D46 /* WGPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPayView.m; sourceTree = "<group>"; };
 		4D1A6EB021FAAFAD00BC4D46 /* WGPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPayView.h; sourceTree = "<group>"; };
-		4D1A6EB521FAAFE300BC4D46 /* WGPayEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGPayEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGPayEffectView.framework"; sourceTree = "<absolute>"; };
+		4D1A6EB921FAB27900BC4D46 /* WGPayEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGPayEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D432FE721F9B839001D096F /* WGCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGCycleScrollView.h; sourceTree = "<group>"; };
 		4D432FE821F9B839001D096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D432FF421F9B850001D096F /* WGScrollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGScrollTextView.h; sourceTree = "<group>"; };
@@ -307,6 +307,7 @@
 				4D432FE621F9B839001D096F /* WGCycleScrollView */,
 				4D432FF321F9B850001D096F /* WGScrollTextView */,
 				4D43300721F9B892001D096F /* WGLayoutPopGesture */,
+				4D1A6EB921FAB27900BC4D46 /* WGPayEffectView.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -342,8 +343,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1A6EB321FAAFAD00BC4D46 /* WGPayView.h in Headers */,
 				4D1A6EAD21FAAFA100BC4D46 /* WGPayEffectView.h in Headers */,
+				4D1A6EB321FAAFAD00BC4D46 /* WGPayView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +435,7 @@
 			);
 			name = WGPayEffectView;
 			productName = WGPayEffectView;
-			productReference = 4D1A6EB521FAAFE300BC4D46 /* WGPayEffectView.framework */;
+			productReference = 4D1A6EB921FAB27900BC4D46 /* WGPayEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D432FE421F9B839001D096F /* WGCycleScrollView */ = {
@@ -636,6 +637,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1A6EB821FAB1EF00BC4D46 /* WSDatePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +704,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1A6E8A21FAA86100BC4D46 /* WSDatePickerView.xib in Sources */,
 				4D43306721F9C1BC001D096F /* UIView+Extension.m in Sources */,
 				4D43306621F9C1BC001D096F /* NSDate+Extension.m in Sources */,
 				4D43306821F9C1BC001D096F /* WSDatePickerView.m in Sources */,
@@ -752,6 +753,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGPayEffectView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -782,6 +784,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGPayEffectView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
