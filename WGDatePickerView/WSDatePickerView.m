@@ -124,7 +124,7 @@ typedef void(^doneBlock)(NSDate *);
 -(instancetype)initWithDateStyle:(WSDateStyle)datePickerStyle scrollToDate:(NSDate *)scrollToDate CompleteBlock:(void(^)(NSDate *))completeBlock {
     self = [super init];
     if (self) {
-        self = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil] lastObject];
+        self = [[[NSBundle mainBundle] loadNibNamed:@"WGDatePickerView.framework/WSDatePickerView" owner:self options:nil] lastObject];
         
         
         self.datePickerStyle = datePickerStyle;

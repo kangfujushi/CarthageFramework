@@ -24,7 +24,7 @@
 @implementation WGPayView
 
 + (void)showPayView:(NSString *)title Price:(CGFloat)price Block:(void(^)(NSInteger selectIndex))block {
-    WGPayView *view = [[NSBundle mainBundle] loadNibNamed:@"WGPayView" owner:self options:nil].firstObject;
+    WGPayView *view = [[NSBundle mainBundle] loadNibNamed:@"WGPayView.framework/WGPayView" owner:self options:nil].firstObject;
     view.block = block;
     view.title.text = title;
     view.price.text = [NSString stringWithFormat:@"￥%.2f",price];
