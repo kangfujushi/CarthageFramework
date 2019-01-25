@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1A6E8921FAA81A00BC4D46 /* WGPayView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4D43304121F9BD2C001D096F /* WGPayView.xib */; };
+		4D1A6E8A21FAA86100BC4D46 /* WSDatePickerView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4D43302721F9BBE4001D096F /* WSDatePickerView.xib */; };
 		4D432FE921F9B839001D096F /* WGCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D432FE721F9B839001D096F /* WGCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D432FF621F9B850001D096F /* WGScrollTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D432FF421F9B850001D096F /* WGScrollTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D43300A21F9B892001D096F /* WGLayoutPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D43300821F9B892001D096F /* WGLayoutPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,13 +67,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D1A6E7A21FA98BB00BC4D46 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGMapView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGMapView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E7B21FA98BB00BC4D46 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGEffectView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E7C21FA98BB00BC4D46 /* WGCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGCycleScrollView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E7D21FA98BB00BC4D46 /* WGScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGScrollTextView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E7E21FA98BB00BC4D46 /* WGLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
-		4D1A6E7F21FA98BB00BC4D46 /* WGPayEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGPayEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGPayEffectView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E8021FA98BB00BC4D46 /* WGDatePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGDatePickerView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGDatePickerView.framework"; sourceTree = "<absolute>"; };
+		4D1A6E8121FAA64A00BC4D46 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6E8221FAA64A00BC4D46 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6E8321FAA64A00BC4D46 /* WGCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6E8421FAA64A00BC4D46 /* WGScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGScrollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6E8521FAA64A00BC4D46 /* WGLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGLayoutPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6E8621FAA64A00BC4D46 /* WGPayEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGPayEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6E8721FAA64A00BC4D46 /* WGDatePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGDatePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D432FE721F9B839001D096F /* WGCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGCycleScrollView.h; sourceTree = "<group>"; };
 		4D432FE821F9B839001D096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D432FF421F9B850001D096F /* WGScrollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGScrollTextView.h; sourceTree = "<group>"; };
@@ -306,6 +308,13 @@
 				4D432FF321F9B850001D096F /* WGScrollTextView */,
 				4D43300721F9B892001D096F /* WGLayoutPopGesture */,
 				4D43303821F9BD14001D096F /* WGPayEffectView */,
+				4D1A6E8121FAA64A00BC4D46 /* WGMapView.framework */,
+				4D1A6E8221FAA64A00BC4D46 /* WGEffectView.framework */,
+				4D1A6E8321FAA64A00BC4D46 /* WGCycleScrollView.framework */,
+				4D1A6E8421FAA64A00BC4D46 /* WGScrollTextView.framework */,
+				4D1A6E8521FAA64A00BC4D46 /* WGLayoutPopGesture.framework */,
+				4D1A6E8621FAA64A00BC4D46 /* WGPayEffectView.framework */,
+				4D1A6E8721FAA64A00BC4D46 /* WGDatePickerView.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -433,7 +442,7 @@
 			);
 			name = WGCycleScrollView;
 			productName = WGCycleScrollView;
-			productReference = 4D1A6E7C21FA98BB00BC4D46 /* WGCycleScrollView.framework */;
+			productReference = 4D1A6E8321FAA64A00BC4D46 /* WGCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D432FF121F9B850001D096F /* WGScrollTextView */ = {
@@ -451,7 +460,7 @@
 			);
 			name = WGScrollTextView;
 			productName = WGScrollTextView;
-			productReference = 4D1A6E7D21FA98BB00BC4D46 /* WGScrollTextView.framework */;
+			productReference = 4D1A6E8421FAA64A00BC4D46 /* WGScrollTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D43300521F9B892001D096F /* WGLayoutPopGesture */ = {
@@ -469,7 +478,7 @@
 			);
 			name = WGLayoutPopGesture;
 			productName = WGLayoutPopGesture;
-			productReference = 4D1A6E7E21FA98BB00BC4D46 /* WGLayoutPopGesture.framework */;
+			productReference = 4D1A6E8521FAA64A00BC4D46 /* WGLayoutPopGesture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D43303621F9BD14001D096F /* WGPayEffectView */ = {
@@ -487,7 +496,7 @@
 			);
 			name = WGPayEffectView;
 			productName = WGPayEffectView;
-			productReference = 4D1A6E7F21FA98BB00BC4D46 /* WGPayEffectView.framework */;
+			productReference = 4D1A6E8621FAA64A00BC4D46 /* WGPayEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D43305C21F9C1AC001D096F /* WGDatePickerView */ = {
@@ -505,7 +514,7 @@
 			);
 			name = WGDatePickerView;
 			productName = WGDatePickerView;
-			productReference = 4D1A6E8021FA98BB00BC4D46 /* WGDatePickerView.framework */;
+			productReference = 4D1A6E8721FAA64A00BC4D46 /* WGDatePickerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D5116C921EB7A7D0018ED95 /* WGMapView */ = {
@@ -523,7 +532,7 @@
 			);
 			name = WGMapView;
 			productName = WGMapView;
-			productReference = 4D1A6E7A21FA98BB00BC4D46 /* WGMapView.framework */;
+			productReference = 4D1A6E8121FAA64A00BC4D46 /* WGMapView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D5116D621EB7A910018ED95 /* WGEffectView */ = {
@@ -541,7 +550,7 @@
 			);
 			name = WGEffectView;
 			productName = WGEffectView;
-			productReference = 4D1A6E7B21FA98BB00BC4D46 /* WGEffectView.framework */;
+			productReference = 4D1A6E8221FAA64A00BC4D46 /* WGEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -693,6 +702,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1A6E8921FAA81A00BC4D46 /* WGPayView.xib in Sources */,
 				4D43304221F9BD2C001D096F /* WGPayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,6 +711,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1A6E8A21FAA86100BC4D46 /* WSDatePickerView.xib in Sources */,
 				4D43306721F9C1BC001D096F /* UIView+Extension.m in Sources */,
 				4D43306621F9C1BC001D096F /* NSDate+Extension.m in Sources */,
 				4D43306821F9C1BC001D096F /* WSDatePickerView.m in Sources */,

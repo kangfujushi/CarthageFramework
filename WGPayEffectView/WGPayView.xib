@@ -20,6 +20,9 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="0.3047410102739726" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Fk2-gT-OoK" appends="YES" id="C1g-PX-ZVb"/>
+                    </connections>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eQ-De-1d2">
                     <rect key="frame" x="37.5" y="684" width="300" height="300"/>
@@ -174,6 +177,11 @@
             </connections>
             <point key="canvasLocation" x="30" y="141"/>
         </view>
+        <tapGestureRecognizer id="Fk2-gT-OoK">
+            <connections>
+                <action selector="dismiss:" destination="iN0-l3-epB" id="IQ2-G5-AoQ"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="choose_checkbox_selected" width="24" height="24"/>
