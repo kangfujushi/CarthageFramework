@@ -10,7 +10,7 @@
 #import <Masonry/Masonry.h>
 
 #define kMaxWidth ([UIScreen mainScreen].bounds.size.width)
-#define baseDistance 0.0624
+#define baseDistance 0.12
 static const CGFloat kDefaultWidth = 80;
 
 @interface WWView : UIView

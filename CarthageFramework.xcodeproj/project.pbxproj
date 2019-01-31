@@ -66,18 +66,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D1A6E8121FAA64A00BC4D46 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGMapView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGMapView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E8221FAA64A00BC4D46 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGEffectView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGEffectView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E8321FAA64A00BC4D46 /* WGCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGCycleScrollView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGCycleScrollView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E8421FAA64A00BC4D46 /* WGScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGScrollTextView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGScrollTextView.framework"; sourceTree = "<absolute>"; };
-		4D1A6E8521FAA64A00BC4D46 /* WGLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGLayoutPopGesture.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGLayoutPopGesture.framework"; sourceTree = "<absolute>"; };
-		4D1A6E8721FAA64A00BC4D46 /* WGDatePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGDatePickerView.framework; path = "/Users/zhaoning/Desktop/CarthageFramework/build/Debug-iphoneos/WGDatePickerView.framework"; sourceTree = "<absolute>"; };
 		4D1A6EA721FAAF5D00BC4D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D1A6EAC21FAAFA100BC4D46 /* WGPayEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPayEffectView.h; sourceTree = "<group>"; };
 		4D1A6EAE21FAAFAD00BC4D46 /* WGPayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WGPayView.xib; sourceTree = "<group>"; };
 		4D1A6EAF21FAAFAD00BC4D46 /* WGPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPayView.m; sourceTree = "<group>"; };
 		4D1A6EB021FAAFAD00BC4D46 /* WGPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPayView.h; sourceTree = "<group>"; };
-		4D1A6EB921FAB27900BC4D46 /* WGPayEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGPayEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D432FE721F9B839001D096F /* WGCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGCycleScrollView.h; sourceTree = "<group>"; };
 		4D432FE821F9B839001D096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D432FF421F9B850001D096F /* WGScrollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGScrollTextView.h; sourceTree = "<group>"; };
@@ -112,6 +105,13 @@
 		4D9571E421D753FB00BD615A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		4D95729421D76A3E00BD615A /* LMJScrollTextView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView2.h; sourceTree = "<group>"; };
 		4D95729521D76A3E00BD615A /* LMJScrollTextView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJScrollTextView2.m; sourceTree = "<group>"; };
+		4DE7578F2202F936007E32B0 /* WGMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE757902202F936007E32B0 /* WGEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE757912202F936007E32B0 /* WGCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE757922202F936007E32B0 /* WGScrollTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGScrollTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE757932202F936007E32B0 /* WGLayoutPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGLayoutPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE757942202F936007E32B0 /* WGDatePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGDatePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE757952202F936007E32B0 /* WGPayEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGPayEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFEC0E421F9FF95003FFDA1 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		4DFEC0E521F9FF95003FFDA1 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
 		4DFEC0E621F9FF95003FFDA1 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
@@ -307,7 +307,13 @@
 				4D432FE621F9B839001D096F /* WGCycleScrollView */,
 				4D432FF321F9B850001D096F /* WGScrollTextView */,
 				4D43300721F9B892001D096F /* WGLayoutPopGesture */,
-				4D1A6EB921FAB27900BC4D46 /* WGPayEffectView.framework */,
+				4DE7578F2202F936007E32B0 /* WGMapView.framework */,
+				4DE757902202F936007E32B0 /* WGEffectView.framework */,
+				4DE757912202F936007E32B0 /* WGCycleScrollView.framework */,
+				4DE757922202F936007E32B0 /* WGScrollTextView.framework */,
+				4DE757932202F936007E32B0 /* WGLayoutPopGesture.framework */,
+				4DE757942202F936007E32B0 /* WGDatePickerView.framework */,
+				4DE757952202F936007E32B0 /* WGPayEffectView.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -435,7 +441,7 @@
 			);
 			name = WGPayEffectView;
 			productName = WGPayEffectView;
-			productReference = 4D1A6EB921FAB27900BC4D46 /* WGPayEffectView.framework */;
+			productReference = 4DE757952202F936007E32B0 /* WGPayEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D432FE421F9B839001D096F /* WGCycleScrollView */ = {
@@ -453,7 +459,7 @@
 			);
 			name = WGCycleScrollView;
 			productName = WGCycleScrollView;
-			productReference = 4D1A6E8321FAA64A00BC4D46 /* WGCycleScrollView.framework */;
+			productReference = 4DE757912202F936007E32B0 /* WGCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D432FF121F9B850001D096F /* WGScrollTextView */ = {
@@ -471,7 +477,7 @@
 			);
 			name = WGScrollTextView;
 			productName = WGScrollTextView;
-			productReference = 4D1A6E8421FAA64A00BC4D46 /* WGScrollTextView.framework */;
+			productReference = 4DE757922202F936007E32B0 /* WGScrollTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D43300521F9B892001D096F /* WGLayoutPopGesture */ = {
@@ -489,7 +495,7 @@
 			);
 			name = WGLayoutPopGesture;
 			productName = WGLayoutPopGesture;
-			productReference = 4D1A6E8521FAA64A00BC4D46 /* WGLayoutPopGesture.framework */;
+			productReference = 4DE757932202F936007E32B0 /* WGLayoutPopGesture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D43305C21F9C1AC001D096F /* WGDatePickerView */ = {
@@ -507,7 +513,7 @@
 			);
 			name = WGDatePickerView;
 			productName = WGDatePickerView;
-			productReference = 4D1A6E8721FAA64A00BC4D46 /* WGDatePickerView.framework */;
+			productReference = 4DE757942202F936007E32B0 /* WGDatePickerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D5116C921EB7A7D0018ED95 /* WGMapView */ = {
@@ -525,7 +531,7 @@
 			);
 			name = WGMapView;
 			productName = WGMapView;
-			productReference = 4D1A6E8121FAA64A00BC4D46 /* WGMapView.framework */;
+			productReference = 4DE7578F2202F936007E32B0 /* WGMapView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4D5116D621EB7A910018ED95 /* WGEffectView */ = {
@@ -543,7 +549,7 @@
 			);
 			name = WGEffectView;
 			productName = WGEffectView;
-			productReference = 4D1A6E8221FAA64A00BC4D46 /* WGEffectView.framework */;
+			productReference = 4DE757902202F936007E32B0 /* WGEffectView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -753,6 +759,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGPayEffectView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -784,6 +791,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGPayEffectView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -817,6 +825,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -850,6 +859,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -877,6 +887,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGScrollTextView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -904,6 +915,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGScrollTextView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -985,6 +997,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGDatePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1012,6 +1025,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGDatePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1046,6 +1060,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = con.zhaoning.WGMapView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1081,6 +1096,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = con.zhaoning.WGMapView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
