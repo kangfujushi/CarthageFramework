@@ -332,7 +332,7 @@
 - (void)scrollWithNoSpaceByDirection:(NSNumber *)direction{
     // 处于非当前页面，延迟尝试
     if (![self isCurrentViewControllerVisible:[self viewController]] && _isLaunch) {
-        [self performSelector:@selector(scrollWithNoSpaceByDirection:) withObject:direction afterDelay:3.f];
+        [self performSelector:@selector(scrollWithNoSpaceByDirection:) withObject:direction afterDelay:1.f];
         
         
     // 处于当前页面
@@ -382,7 +382,7 @@
     
     // 处于非当前页面，延迟尝试
     if (![self isCurrentViewControllerVisible:[self viewController]]) {
-        [self performSelector:@selector(scrollWithSpaceByDirection:) withObject:direction afterDelay:3.f];
+        [self performSelector:@selector(scrollWithSpaceByDirection:) withObject:direction afterDelay:1.f];
    
     // 处于当前页面
     }else{
